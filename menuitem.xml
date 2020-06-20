@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/additem"
+
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="Add Item"
+
+        android:visible="true" />
+    <item
+        android:id="@+id/viewitem"
+        android:icon="@drawable/ic_format_list_bulleted_black_24dp"
+        android:title="View Item"
+        android:visible="true" />
+    <item
+        android:id="@+id/orderlist"
+        android:icon="@drawable/ic_view_list_black_24dp"
+        android:title="Order List"
+        android:visible="true" />
+    <item
+        android:id="@+id/requestApproval"
+        android:icon="@drawable/ic_add_alert_black_24dp"
+        android:title="Request Approval"
+        android:visible="true" />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_highlight_off_black_24dp"
+        android:title="log out"
+        android:visible="true" />
+
+</menu>

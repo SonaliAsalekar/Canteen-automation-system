@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".Main3Activity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/login">
+
+
+    </ImageView>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        >
+
+        <EditText
+            android:id="@+id/emaillogin"
+            android:layout_width="300dp"
+            android:drawablePadding="10dp"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textSize="25dp"
+            android:hint="Email" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        app:passwordToggleEnabled="true"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="225dp">
+
+
+        <EditText
+            android:id="@+id/passwordlogin"
+            android:layout_width="300dp"
+            android:drawableStart="@drawable/ic_lock_black_24dp"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:layout_height="60dp"
+            android:ems="10"
+
+            android:drawablePadding="10dp"
+            android:hint="Password"
+
+            android:inputType="textPassword"
+            android:textSize="25dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/rbutton"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="btn_click"
+        android:text="Login"
+
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:text="Dont have an account?" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Register"
+        android:textSize="22sp"
+
+        android:textColor="#ffffff"
+        android:onClick="login_regi_button"
+
+        android:background="@drawable/button_rounded"
+
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".Main2Activity">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:drawableStart="@drawable/ic_person_black_24dp"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="UserName"
+            android:inputType="text"
+            android:textSize="25sp"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent">
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:drawableStart="@drawable/ic_place_black_24dp"
+            android:drawableLeft="@drawable/ic_place_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="Address"
+            android:inputType="text"
+            android:textSize="25sp"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent">
+
+        <EditText
+            android:id="@+id/emailregistration"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="Email"
+            android:inputType="text"
+            android:textSize="25sp"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:passwordToggleEnabled="true"
+        android:textColorHint="@color/colorAccent">
+
+        <EditText
+            android:id="@+id/passwordregistration"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:drawableStart="@drawable/ic_lock_black_24dp"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="25sp"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+
+        android:textColorHint="@color/colorAccent">
+
+        <EditText
+            android:id="@+id/confirmpassregistration"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:drawableStart="@drawable/ic_lock_black_24dp"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:drawablePadding="10sp"
+            android:hint="ConfirmPassword"
+            android:inputType="textPassword"
+            android:textSize="25sp"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent">
+
+        <EditText
+            android:id="@+id/MobileNumber"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:drawableStart="@drawable/ic_stay_primary_portrait_black_24dp"
+            android:drawableLeft="@drawable/ic_stay_primary_portrait_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="MobileNumber"
+            android:inputType="text"
+            android:textSize="25sp"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Register"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+
+        android:textColor="#ffffff"
+
+        android:onClick="register_click_"
+        android:background="@drawable/button_rounded" />
+
+
+</LinearLayout>
